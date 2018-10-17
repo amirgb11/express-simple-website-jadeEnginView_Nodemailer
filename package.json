@@ -4,8 +4,9 @@
   "description": "Simple Website",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1" , 
-    "dev": "lite-server"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "lite-server",
+    "start": "nodemon app.js"
   },
   "author": "http://github.com/amirgb11",
   "license": "ISC",
@@ -13,7 +14,8 @@
     "body-parser": "*",
     "express": "*",
     "jade": "*",
-    "nodemailer": "*"
+    "nodemailer": "*",
+    "nodemon": "^1.18.4"
   },
   "devDependencies": {
     "lite-server": "^2.4.0"
